@@ -18,15 +18,15 @@ int test_game()
 }
 int test_reset()
 {
-    char name[20];
-	float scr;
-    TEST_ASSERT_EQUAL(0,test_rest_score(scr,name));
+    
+
+    TEST_ASSERT_EQUAL(0,test_rest_score());
 }
 void test_score()
 {
-    char name[20];
-    float scr;
-    TEST_ASSERT_EQUAL(0,test_edit_score(scr,name));
+
+    
+    TEST_ASSERT_EQUAL(0,test_edit_score());
 }
 
  int main(void)
@@ -34,7 +34,7 @@ void test_score()
     UnityBegin(NULL);
     RUN_TEST(test_game());
     RUN_TEST(test_reset_score());
-     RUN_TEST(test_edit_score(float score, char plnm[20]));
+     RUN_TEST(test_edit_score();
     return(UnityEnd());
 
 

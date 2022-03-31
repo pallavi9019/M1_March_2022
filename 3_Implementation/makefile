@@ -1,10 +1,8 @@
-#Targetname:Dependent target names
-#<Tab>
-
+#Targetname : Dependent target names
+#<TAB>command
 
 Build:
-	gcc election2.c test.c Unity/unity.c -IUnity
+	gcc election.c
 
 Run:
 	./a.out
-
