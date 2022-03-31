@@ -16,10 +16,25 @@ int test_game()
 {
     TEST_ASSERT_EQUAL(0,test_show_record());
 }
+int test_reset()
+{
+    char name[20];
+	float scr;
+    TEST_ASSERT_EQUAL(0,test_rest_score(scr,name));
+}
+void test_score()
+{
+    char name[20];
+    float scr;
+    TEST_ASSERT_EQUAL(0,test_edit_score(scr,name));
+}
+
  int main(void)
 {
     UnityBegin(NULL);
     RUN_TEST(test_game());
+    RUN_TEST(test_reset_score());
+     RUN_TEST(test_edit_score(float score, char plnm[20]));
     return(UnityEnd());
 
 
