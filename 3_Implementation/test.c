@@ -1,5 +1,5 @@
-#include"Unity\unity.h"
-#include<stdio.h>
+#include"unity.h"
+
 extern int test_show_record();
 extern void test_reset_score();
 extern void test_help();
@@ -16,10 +16,11 @@ int test_game()
 {
     TEST_ASSERT_EQUAL(0,test_show_record());
 }
-int main(void)
+ int main(void)
 {
     UnityBegin(NULL);
     RUN_TEST(test_game());
     return(UnityEnd());
+
 
 }

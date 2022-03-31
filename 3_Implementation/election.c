@@ -6,7 +6,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-void show_record();
+int show_record();
 void reset_score();
 void help();
 void edit_score(float , char []);
@@ -483,9 +483,9 @@ game:
 	else
 		{
 		edit_score(score,playername);
-		goto mainhome;}}}*/
+		goto mainhome;}}} */
 
-void show_record()
+int show_record()
     {system("cls");
 	char name[20];
 	float scr;
@@ -496,8 +496,10 @@ void show_record()
 	printf("\n\n\t\t %s has secured the Highest Score %0.2f",name,scr);
 	printf("\n\n\t\t*************************************************************");
 	fclose(f);
-	
 	getch();
+	return 0;
+	
+
 	
 	}
 
@@ -557,7 +559,7 @@ int test_show_record()
 	printf("\n\n\t\t %s has secured the Highest Score %0.2f",name,scr);
 	printf("\n\n\t\t*************************************************************");
 	fclose(f);
-	getch();}
+	}
 
 void test_reset_score()
     {system("cls");
@@ -568,7 +570,8 @@ void test_reset_score()
 	fscanf(f,"%s%f",&nm,&sc);
 	sc=0;
 	fprintf(f,"%s,%.2f",nm,sc);
-    fclose(f);}
+    fclose(f);
+	getch();}
 
 void test_help()
 	{system("cls");
