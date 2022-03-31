@@ -5,4 +5,4 @@ Build:
 	gcc election.c
 
 Run:
-	./a.out
+	./a.exe
