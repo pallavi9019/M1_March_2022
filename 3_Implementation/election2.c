@@ -1,5 +1,3 @@
-//quiz game code
-
 #include<stdio.h>
 #include<conio.h>
 #include<ctype.h>
@@ -10,7 +8,7 @@ int show_record();
 void reset_score();
 void help();
 void edit_score(float , char []);
-
+/*
 int main()
      {
      int countr,r,r1,count,i,n;
@@ -483,7 +481,7 @@ game:
 	else
 		{
 		edit_score(score,playername);
-		goto mainhome;}}} 
+		goto mainhome;}}} */
 
 int show_record()
     {system("cls");
