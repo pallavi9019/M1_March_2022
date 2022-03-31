@@ -3,7 +3,7 @@
 
 
 Build:
-	gcc election.c
+	gcc election2.c test.c Unity/unity.c -IUnity
 
 Run:
 	./a.out
