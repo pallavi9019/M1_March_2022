@@ -1,9 +1,12 @@
 #include"unity.h"
+#include<stdio.h>
 
-extern int test_show_record();
-extern void test_reset_score();
-extern void test_help();
-extern void test_edit_score(float score, char plnm[20]);
+
+
+extern int show_record();
+extern void reset_score();
+extern void help();
+extern void edit_score(float score, char plnm[20]);
 void setUp(void)
 {
 
@@ -14,27 +17,28 @@ void tearDown(void)
 }
 int test_game()
 {
-    TEST_ASSERT_EQUAL(0,test_show_record());
-}
+    UNITY_TEST_ASSERT_EQUAL_INT((0), (show_record()), __LINE__, NULL);
+
+return 0;}
 int test_reset()
 {
     
 
-    TEST_ASSERT_EQUAL(0,test_rest_score());
+    UNITY_TEST_ASSERT_EQUAL_INT((0), (rest_score()), __LINE__, NULL);
 }
 void test_score()
 {
 
     
-    TEST_ASSERT_EQUAL(0,test_edit_score());
+    UNITY_TEST_ASSERT_EQUAL_INT((0), (edit_score()), __LINE__, NULL);
 }
 
  int main(void)
 {
     UnityBegin(NULL);
     RUN_TEST(test_game());
-    RUN_TEST(test_reset_score());
-     RUN_TEST(test_edit_score();
+    RUN_TEST(test_score());
+    RUN_TEST(test_reset());
     return(UnityEnd());
 
 
