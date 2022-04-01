@@ -22,17 +22,17 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 
 
 ## SWOT ANALYSIS
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/ce31353fb25e1129f81ab9baa3c5cf5c7dae40e5/1_Requirements/SWOT%20analysis.png)
+![image](https://github.com/pallavi9019/M1_March_2022/blob/59e84a171d7bcf3bd502d74067d43659d4439241/1_Requirements/SWOT%20analysis/SWOT%20analysis%20(1).png)
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
 
-* All the Electrical and Electronics enthusiasts for work and projects.
+* All the mind sport in which players liek students,children etc for work,fun and projects.
 
 ## What:
 
-* Electrical calculator to find the electrical and electronics parameter like voltage,resistor color code value,battery life etc.
+* project, a number of questions are asked, and the user is awarded cash prize for each correct answer given.
 
 ## When:
 
@@ -44,7 +44,7 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 
 ## How:
 
-* users can use this code to easy their work and project in electrical.
+* users can use this code to easy their work and project.
 
 # Detail requirements
 ## High Level Requirements:
@@ -52,10 +52,10 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 | ID | Description | Status (Implemented/Future)
 |:---:|:---:|:---:|
 |HLR-1| User shall be able to select the band the user need to get value in resistor code calculator. |Implemented|
-|HLR-2| System ask choice to continue after getting value from one calculator. |Implemented|
-|HLR-3| user shall be able to get any two parameter value after giving any other two value in ohms law calculator. |Implemented|
-|HLR-4| user shall be able to get battery life in hours and in minutes. |Implemented|
-|HLR-5| user shall be able to get the history of the calculation. |Future|
+|HLR-2| System ask choice to continue. |Implemented|
+|HLR-3| user shall be able to get parameter value after giving any other  value. |Implemented|
+|HLR-4| user shall be able to get wrong correct answer. |Implemented|
+|HLR-5| user shall be able to get the history of the quiz game. |Future|
 
 
 
