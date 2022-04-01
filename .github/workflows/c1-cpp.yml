@@ -1,4 +1,4 @@
-name: C/C++ CI-linux
+name: C/C++ CI-linux-2
 
 on:
   push:
