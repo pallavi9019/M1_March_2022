@@ -9,7 +9,7 @@
 * This is a simple project which simply provide required electrical parameters value to the user after taking input from the user. 
 * This calculator is using various formulas for different functions,research are done in the particular calculation and theres need to be perequites before entering to the program
 
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/f2cda815554c041bf7139979462159bb732afc52/1_Requirements/resistor_code.gif)
+![image](https://github.com/pallavi9019/M1_March_2022/blob/59e84a171d7bcf3bd502d74067d43659d4439241/1_Requirements/SWOT%20analysis/SWOT%20analysis%20(1).png)
 -------------------------------------------------------------------------------------------------
 ![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/256f5675952ce21aabe37ecf476e453ace6db5f4/1_Requirements/led-series-table.jpg)
 
