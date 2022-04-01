@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = QUIZ GAME
+PROJECT_NAME = QUIZ_GAME
 
 # Output directory
 BUILD = build
