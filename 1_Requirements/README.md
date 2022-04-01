@@ -1,34 +1,24 @@
 
 # Requirements
 ## Introduction
- * Electrical Calculator is a conversion calculator provide a one-stop resource for numerous computations in the electronics industry. Whether you're looking for a 4 band resistor or seeking to figure out how long a battery lasts, this electrical calculator can assist. 
- * This project first takes the user to a index page where the available contents on type of calculator are listed and asks the user to give input for the respective topic he wants to calculate. User can also try run the example code by him/herself. User can also give suggestion to us. 
+In quiz game, questions are chosen in such a a way that they cover all fields of a typical quiz contest. The user’s general knowledge is tested with quiz questions regarding science, technology, movies, sports, general health, geography and many more.
 
 ## Research
-### Electrical Calculator...
-* This is a simple project which simply provide required electrical parameters value to the user after taking input from the user. 
-* This calculator is using various formulas for different functions,research are done in the particular calculation and theres need to be perequites before entering to the program
+### QUIZ GAME...
+The source code is to be compiled in Code::Blocks with gcc compiler. This quiz game in C is not designed to run on the Turbo C versions. The source code for this mini project is around 1000 lines, so I didn’t want to display it here.
 
 ![image](https://github.com/pallavi9019/M1_March_2022/blob/59e84a171d7bcf3bd502d74067d43659d4439241/1_Requirements/SWOT%20analysis/SWOT%20analysis%20(1).png)
 -------------------------------------------------------------------------------------------------
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/256f5675952ce21aabe37ecf476e453ace6db5f4/1_Requirements/led-series-table.jpg)
 
 ## Cost and Features
-* This project has various features, like it can provide electrical parameters like volatge,current resistor value,battery life etc.. 
-* In Resistor color code Calculator,it can give values of any band upto 6 bands.
-* In ohms law Calculator,user can enter any two parameters(V,I,R,P) and can get other two parameter values.
-* In LED series resistor Calculator,user can get resistor value to drive the LED by entering parameters.
-* In Batter life Calculator,user can get the battery life in hours by entering the parameter.
-#### above features are shown in the below screenshot. 
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/9f8aba398f1a0cc5bcde30190051daae5f0a3664/1_Requirements/index.png)
+Our quiz games put the fun into learning. Your knowledge will be tested regarding a variety of subjects, including geography, cultures, and cartoons. Well-traveled players will love showcasing their map skills in every continent. Answer questions about international borders and capitals to score points and advance.
+
 
 ## Defining Our System
 * System bacically takes input from the user and executes the particular function the user selected, and then print the values.
-* There are 4 types of functions in this Calculator
-  * Resistor Color Code Calculator
-  * Ohms law Calculator
-  * LED series Resistor Calculator
-  * Battery Life Calculator
+In this quiz game mini project, you can store the user name, view the highest score secured by a user, and even reset the score. Additionally, to make the game look a little more interesting, it is divided into two rounds; user must pass the first round to reach the second one.
+
+Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the second is the Challenge round. In the warm-up round, the user is asked a total of three simple questions and they must be able to answer at least two of them correctly to enter the next round. If the user is not capable of doing that, he is not permitted to proceed further.
 
 
 ## SWOT ANALYSIS
