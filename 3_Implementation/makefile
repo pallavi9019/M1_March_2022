@@ -2,7 +2,7 @@
 #<TAB>command
 
 Build:
-	gcc election.c game.c test.c Unity/unity.c -IUnity
+	gcc election.c game.c
 
 Run:
 	./a.exe
