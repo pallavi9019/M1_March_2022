@@ -1,4 +1,5 @@
 ![image](https://github.com/pallavi9019/M1_QUIZ_GAME/blob/aaf355e4ea734e67ec81f5ec610cacb94758c3c5/4_TestPlanAndOutput/Screenshot%20(26).png)
+![image](https://github.com/pallavi9019/M1_QUIZ_GAME/blob/345ac9842a0ee583ba4254403603019229ddfe00/4_TestPlanAndOutput/Screenshot%20(30).png)
 # TEST PLAN:
 
 ## Table no: High level test plan
