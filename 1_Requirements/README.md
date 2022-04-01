@@ -1,3 +1,5 @@
+
+INTRODUCTION
 In quiz game, questions are chosen in such a a way that they cover all fields of a typical quiz contest. The user’s general knowledge is tested with quiz questions regarding science, technology, movies, sports, general health, geography and many more.
 I have divided this mini project into many functions, and listed below are some of those which may help you understand the project better.
 
