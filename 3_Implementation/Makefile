@@ -1,4 +1,4 @@
 Build:
-	gcc election.c game.c
+	gcc election.c src/game.c
 Run:
 	./a.out

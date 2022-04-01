@@ -4,7 +4,9 @@
 #include<ctype.h>
 #include<stdlib.h>
 #include<string.h>
-#include "game.h"
+#include "inc/game.h"
+
+
 
 
 int main()
