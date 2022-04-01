@@ -1,1 +1,1 @@
-https://github.com/pallavi9019/M1_QUIZ_GAME/blob/f93e1da858682c20e45acd241ac4bbfd00f22c50/2_Design/flow%20chat.jpeg
+![image](https://github.com/pallavi9019/M1_March_2022/blob/59e84a171d7bcf3bd502d74067d43659d4439241/1_Requirements/SWOT%20analysis/SWOT%20analysis%20(1).png)
